@@ -21,3 +21,17 @@ Install the requirements first:
 ```
 pip install -r requirements.txt
 ```
+
+###If need use the BN_DCGAN OR LN_DCGAN code
+
+you should download the inception score module fokred from: [chainer-inception-score](https://github.com/hvy/chainer-inception-score)
+
+and download the inception model.
+```
+cd common/inception
+python download.py --outfile inception_score.model
+```
+You can start training with ```train.py```.
+```
+train.py --gpu 0 --algorithm dcgan --batchsize 64 --out drive/res --adam_alpha 0.0002 --adam_beta1 0.5 --adam_beta2 0.9
+```
