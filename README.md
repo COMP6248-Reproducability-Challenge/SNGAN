@@ -59,7 +59,7 @@ FIDs are calculated with 50000 train dataset and 6000 generated samples.
 
 - FID change graphs of different models in different epoch 
 
-![FID_change ](FID_change.png)
+![FID_change ](FID_change.jpg)
 
 - Inception score of different models in CIFAR-10
 
