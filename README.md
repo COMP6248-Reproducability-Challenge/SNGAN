@@ -7,4 +7,6 @@ These codes are evaluated with the inception score and Fréchet Inception Distan
 ## How to use
 
 Install the requirements first:
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
