@@ -22,7 +22,7 @@ Install the requirements first:
 pip install -r requirements.txt
 ```
 
-###If need use the BN_DCGAN OR LN_DCGAN code
+### If need use the BN_DCGAN OR LN_DCGAN code
 
 you should download the inception score module fokred from: [chainer-inception-score](https://github.com/hvy/chainer-inception-score)
 
