@@ -52,21 +52,22 @@ Inception scores are calculated by average of 10 evaluation with 6000 samples.
 FIDs are calculated with 50000 train dataset and 6000 generated samples.
 
 # The performances of different GANs
-- Real data VS SNGAN 
 
-![Real data VS SNGAN ](image.png)
+- Inception score change graphs of different models in different epoch 
 
-- Real data VS SNGAN 
+![IS_change ](IS_change.png)
 
-![Real data VS SNGAN ](image.png)
+- FID change graphs of different models in different epoch 
 
-- Real data VS SNGAN 
+![FID_change ](FID_change.png)
 
-![Real data VS SNGAN ](image.png)
+- Inception score of different models in CIFAR-10
 
-- Real data VS SNGAN 
+![IS ](IS.png)
 
-![Real data VS SNGAN ](image.png)
+- FID of different models in CIFAR-10
+
+![FID ](FID.png)
 
 
 # Generated images
