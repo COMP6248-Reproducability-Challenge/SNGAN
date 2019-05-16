@@ -50,3 +50,9 @@ train.py --gpu 0 --algorithm dcgan --batchsize 64 --out drive/res --adam_alpha 0
 Inception scores are calculated by average of 10 evaluation with 6000 samples.
 
 FIDs are calculated with 50000 train dataset and 6000 generated samples.
+
+# Generated images
+
+- SNGAN
+
+![SNGAN](./images/progressive.png)
