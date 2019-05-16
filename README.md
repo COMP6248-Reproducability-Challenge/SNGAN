@@ -51,6 +51,24 @@ Inception scores are calculated by average of 10 evaluation with 6000 samples.
 
 FIDs are calculated with 50000 train dataset and 6000 generated samples.
 
+# The performances of different GANs
+- Real data VS SNGAN 
+
+![Real data VS SNGAN ](image.png)
+
+- Real data VS SNGAN 
+
+![Real data VS SNGAN ](image.png)
+
+- Real data VS SNGAN 
+
+![Real data VS SNGAN ](image.png)
+
+- Real data VS SNGAN 
+
+![Real data VS SNGAN ](image.png)
+
+
 # Generated images
 
 - Real data VS SNGAN 
