@@ -1,3 +1,3 @@
 # SPECTRAL NORMALIZATION FOR GENERATIVE ADVERSARIAL NETWORKS
 
-The main recurring papers in this repository are:
+This repository is mainly for reproduce a paper:https://arxiv.org/abs/1802.05957
