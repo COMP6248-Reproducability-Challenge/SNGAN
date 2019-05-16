@@ -35,3 +35,14 @@ You can start training with ```train.py```.
 ```
 train.py --gpu 0 --algorithm dcgan --batchsize 64 --out drive/res --adam_alpha 0.0002 --adam_beta1 0.5 --adam_beta2 0.9
 ```
+
+# Quantitative evaluation
+| | [Inception](https://arxiv.org/abs/1606.03498)  | [FID](https://arxiv.org/abs/1706.08500) |
+| ------------- | ------------- | ------------- |
+| Real data  | 9.6727  | 17.2690 (train vs test) |
+| [SN-DCGAN](https://drive.google.com/file/d/0B8HZ50DPgR3eSVV6YlF3XzQxSjQ/view?usp=sharing)  | 3.8849 | 173.387 |
+| [DCGAN-BN](https://arxiv.org/abs/1502.03167)  | 2.8561 | 243.652 |
+| [DCGAN-LN](http://adsabs.harvard.edu/abs/2016arXiv160706450L)  | 3.3469 | 219.825 |
+| [WGAN-GP](https://arxiv.org/abs/1704.00028)  | 3.6489 | 186.357 |
+| [BEGAN](https://arxiv.org/abs/1703.10717)  | 2.8899 | 193.063 |
+| [EBGAN](https://arxiv.org/abs/1609.03126)  | 2.2915 | 232.225 |
