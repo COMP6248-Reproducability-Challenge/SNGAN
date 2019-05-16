@@ -10,7 +10,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description=desc)
 
     parser.add_argument('--gan_type', type=str, default='WGAN_GP',
-                        choices=['GAN', 'CGAN', 'infoGAN', 'ACGAN', 'EBGAN', 'BEGAN', 'WGAN', 'WGAN_GP', 'DRAGAN', 'LSGAN'],
+                        choices=['EBGAN', 'BEGAN', 'WGAN_GP'],
                         help='The type of GAN')
     parser.add_argument('--dataset', type=str, default='cifar10', choices=['mnist', 'fashion-mnist', 'cifar10', 'cifar100', 'svhn', 'stl10', 'lsun-bed'],
                         help='The name of dataset')
@@ -71,11 +71,7 @@ def main():
         torch.backends.cudnn.benchmark = True
 
         # declare instance for GAN
-    if args.gan_type == 'GAN':
-        gan = GAN(args)
-        if load_flag == True:
-            GAN.load(gan)
-    elif args.gan_type == 'EBGAN':
+    if args.gan_type == 'EBGAN':
         gan = EBGAN(args)
         if load_flag == True:
             EBGAN.load(gan)
