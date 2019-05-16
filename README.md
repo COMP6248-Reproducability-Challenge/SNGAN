@@ -55,4 +55,4 @@ FIDs are calculated with 50000 train dataset and 6000 generated samples.
 
 - Real data VS SNGAN 
 
-![Real data VS SNGAN ](.image.png)
+![Real data VS SNGAN ](image.png)
