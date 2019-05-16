@@ -46,6 +46,7 @@ train.py --gpu 0 --algorithm dcgan --batchsize 64 --out drive/res --adam_alpha 0
 | [WGAN-GP](https://arxiv.org/abs/1704.00028)  | 3.6489 | 186.357 |
 | [BEGAN](https://arxiv.org/abs/1703.10717)  | 2.8899 | 193.063 |
 | [EBGAN](https://arxiv.org/abs/1609.03126)  | 2.2915 | 232.225 |
+
 Inception scores are calculated by average of 10 evaluation with 6000 samples.
 
 FIDs are calculated with 50000 train dataset and 6000 generated samples.
