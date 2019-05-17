@@ -51,6 +51,8 @@ Inception scores are calculated by average of 10 evaluation with 6000 samples.
 
 FIDs are calculated with 50000 train dataset and 6000 generated samples.
 
+The score is the best score in 300 epoch
+
 # The performances of different GANs
 
 - Inception score change graphs of different models in different epoch 
